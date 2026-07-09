@@ -1,7 +1,15 @@
-#Comprehension and Grammar Evaluation experiments
+# Comprehension and Grammar Evaluation experiments
+## Related Repositories
+
+This project is part of the **Computer-Aided Language Learning for Arabic-Speaking Children** framework.
+
+- **Dataset:** [https://github.com/<your-username>/<dataset-repository>](https://github.com/NawrasRahhal/WatchAndLearn-Question-Answering-Dataset.git)
+- **CALL Backend:** [https://github.com/<your-username>/<backend-repository>](https://github.com/KlareinWassaya/storyadventure-backend.git)
+- **CALL Frontend:** [https://github.com/<your-username>/<frontend-repository>](https://github.com/KlareinWassaya/StoryAdventure-ListenAndLearn.git)
+
 ## Comprehension Assessment Experiments
 
-This repository contains the experimental implementation of the **Comprehension Assessment** module developed for the paper:
+This section illustrates the experimental implementation of the **Comprehension Assessment** module developed for the paper:
 
 > **Computer-Aided Language Learning for Arabic-Speaking Children**
 
