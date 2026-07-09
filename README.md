@@ -79,7 +79,7 @@ Each approach is evaluated using standard classification metrics to determine it
 Clone the repository:
 
 ```bash
-git clone [https://github.com/<your-username>/<repository-name>.git](https://github.com/Jouwana-Daibes/Comprehension-and-Grammar-evaluation-experiments.git)
+git clone https://github.com/Jouwana-Daibes/Comprehension-and-Grammar-evaluation-experiments.git
 ```
 
 Launch Jupyter Notebook:
