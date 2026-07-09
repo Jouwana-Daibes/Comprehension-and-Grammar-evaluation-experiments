@@ -7,20 +7,9 @@ This project is part of the **Computer-Aided Language Learning for Arabic-Speaki
 - **CALL Backend:** [https://github.com/<your-username>/<backend-repository>](https://github.com/KlareinWassaya/storyadventure-backend.git)
 - **CALL Frontend:** [https://github.com/<your-username>/<frontend-repository>](https://github.com/KlareinWassaya/StoryAdventure-ListenAndLearn.git)
 
-## Comprehension Assessment Experiments
-
-This section illustrates the experimental implementation of the **Comprehension Assessment** module developed for the paper:
-
-> **Computer-Aided Language Learning for Arabic-Speaking Children**
-
-The repository includes the experiments conducted before deployment to evaluate semantic similarity models for automatically assessing Arabic-speaking children's spoken responses.
-
----
-
 ## Repository Structure
 
 ```
-.
 ├── Comprehension_evaluation.ipynb
 ├── LICENSE
 ├── CITATION.cff
@@ -30,20 +19,14 @@ The repository includes the experiments conducted before deployment to evaluate 
 ---
 
 ## Overview
+This repository illustrates the experimental implementation of the **Comprehension Assessment** and **Grammar Assessment** module developed for the paper:
 
+> **Computer-Aided Language Learning for Arabic-Speaking Children**
+
+The repository includes the experiments conducted before deployment to evaluate semantic similarity models for automatically assessing Arabic-speaking children's spoken responses.
 The notebooks evaluate multiple semantic similarity approaches for automatic comprehension assessment by comparing a child's response with one or more reference answers.
 
-The evaluated approaches include:
-
-- TF-IDF
-- TF-IDF + Latent Semantic Analysis (LSA)
-- AraVec (Arabic Word2Vec)
-- Cosine Similarity
-
-Each approach is evaluated using standard classification metrics to determine its suitability for deployment in the proposed Computer-Assisted Language Learning (CALL) framework.
-
 ---
-
 ## Dataset
 
 The experiments use a text dataset collected from Arabic-speaking children aged **10–14 years**.
@@ -62,6 +45,7 @@ The dataset is maintained in a separate GitHub repository and can be accessed he
 [https://github.com/<your-username>/<dataset-repository>
 ](https://github.com/NawrasRahhal/WatchAndLearn-Question-Answering-Dataset.git)
 Please refer to the dataset repository for the dataset structure, documentation, and usage instructions.
+
 ---
 
 ## Evaluation Metrics
@@ -75,6 +59,19 @@ The experiments report:
 
 Threshold optimization is performed to identify the best operating point for each evaluated model.
 
+---
+
+## Comprehension Assessment Experiments
+The evaluated approaches include:
+
+- TF-IDF
+- TF-IDF + Latent Semantic Analysis (LSA)
+- AraVec (Arabic Word2Vec)
+- Cosine Similarity
+
+Each approach is evaluated using standard classification metrics to determine its suitability for deployment in the proposed Computer-Assisted Language Learning (CALL) framework.
+
+---
 ---
 
 ## Running the Notebook
